@@ -1,0 +1,6 @@
+export const SIGNUP_ERROR = 'SIGNUP_ERROR';
+export const SIGNUP_SUCCESS = 'SIGNUP_SUCCESS';
+export const SET_NAME = 'SIGNUP_SET_NAME';
+export const SET_EMAIL = 'SIGNUP_SET_EMAIL';
+export const SET_PASSWORD = 'SIGNUP_SET_PASSWORD';
+export const SET_SIGNUP_ERROR = 'SET_SIGNUP_ERROR';

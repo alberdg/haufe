@@ -1,0 +1,128 @@
+.infinite-scroll-component__outerdiv {
+  width: 100%;
+}
+
+
+#character-list, #character-detail {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 50px;
+}
+
+.status {
+  display: flex;
+}
+
+.status-icon {
+  height: 0.5rem;
+  width:  0.5rem;
+  margin-right: 0.375rem;
+  margin-top: 0.275rem;
+  border-radius: 50%;
+}
+
+#character-detail-switch-text {
+  color: #fff;
+  padding: 0.5rem;
+}
+
+#character-detail-switch {
+  padding: 0.5rem;
+}
+
+.alive-icon {
+  background: rgb(85, 204, 68);
+}
+
+.dead-icon {
+  background: rgb(214, 61, 46);
+}
+
+.uknown-icon {
+  background: #fff;
+}
+
+.character-info-column {
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.character-name {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.character-card {
+  background-color: rgb(32, 35, 41);
+  border-radius: 5px;
+  border: none;
+  min-height: 300px;
+  margin: 10px;
+  width: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.character-card-img {
+  max-width: 300px !important;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .character-location {
+    margin-top: 2rem !important;
+  }
+
+  .character-first-episode {
+    margin: 2rem 0 !important;
+  }
+
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  #character-list {
+    min-height: 700px;
+  }
+  .character-card {
+    display: flex;
+  }
+
+  .character-info-column {
+    flex: 1.5 !important;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+  #character-list {
+    align-items: center;
+    justify-content: center;
+    min-height: 800px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 1;
+  }
+
+  .character-card {
+    display: flex;
+    width: 600px;
+  }
+
+  .character-info-column {
+    flex: 1.5 !important;
+  }
+}
+
+#fetch-detail-error {
+  margin-top: 60px;
+}
+
+.haufe-preloader {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: #222222;
+}

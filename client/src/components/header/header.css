@@ -1,0 +1,18 @@
+header {
+  height: 50px;
+  background-color: #F5F5F5;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left:0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 9999;
+}
+
+.nav-item {
+  padding: 8px;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
